@@ -1,5 +1,6 @@
-##代码注释
-###1.程序入口：
+代码注释
+
+1.程序入口：
 ```
 var server = http.createServer(function(req, res){
     routePath(req, res);
@@ -8,7 +9,7 @@ var server = http.createServer(function(req, res){
 当一个请求进来之后，进入到`http.createServer`这个逻辑里面，然后会调用` routePath(req, res)`这个函数去处理这个请求和响应。
 
 
-###2.function routePath(req, res){}：
+2.function routePath(req, res){}：
 
 
 
